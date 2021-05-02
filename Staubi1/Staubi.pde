@@ -50,11 +50,6 @@ class Staubi
         wechsleInZufallsmodus();
       }
     }
-    
-    if (modus.equals("kante"))
-    {
-      // Neuer Modus
-    }
   }
   
   void wechsleInKreiselmodus()
