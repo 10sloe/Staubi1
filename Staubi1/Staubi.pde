@@ -14,13 +14,15 @@ class Staubi
   // Timer für Zufallsmodus
   int zaehler = 0;
 
+  // Konstruktor
   public Staubi(float x, float y, Raum raum_)
   {
     raum = raum_;
     pos = new PVector(x, y);
     v = new PVector(vBetrag, 0);    
   }
-
+  
+  // Methoden
   void bewegen()
   {
     if (modus.equals("zufall"))
