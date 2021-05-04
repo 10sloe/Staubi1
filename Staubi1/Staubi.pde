@@ -13,6 +13,7 @@ class Staubi
   float s = 1;
   // Timer für Zufallsmodus
   int zaehler = 0;
+  int max = 500;
 
   // Konstruktor
   public Staubi(float x, float y, Raum raum_)
@@ -35,7 +36,7 @@ class Staubi
         neueZufallsrichtung();
       }
       zaehler++;
-      if (zaehler == 100)
+      if (zaehler == max)
       {
         wechsleInKreiselmodus();
       }
